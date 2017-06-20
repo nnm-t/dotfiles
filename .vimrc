@@ -3,6 +3,7 @@ set fenc =utf-8
 " バックアップ、スワップ作らない
 set nobackup
 set noswapfile
+set noundofile
 " 編集中のファイルは読み直す
 set autoread
 " 入力中のコマンドをステータスに表示

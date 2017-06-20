@@ -1,0 +1,1 @@
+mklink "%USERPROFILE%\.vimrc" "%HOMEDRIVE%\dotfiles\.vimrc"

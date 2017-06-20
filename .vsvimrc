@@ -1,0 +1,38 @@
+set clipboard=unnamed,autoselect          
+
+set backspace=indent,eol,start
+
+set wildmenu
+
+set cursorline                 
+
+set number                    
+
+set scrolloff=5
+
+set whichwrap=b,s,h,l,<,>,[,],~
+
+set noignorecase               
+
+set smartcase                   
+
+set incsearch                 
+
+set hlsearch                 
+
+set autoindent                  
+set expandtab                  
+set tabstop=2
+set shiftwidth=2
+
+nmap <C-O> :vsc View.NavigateBackward<CR>
+nmap <C-I> :vsc View.NavigateForward<CR>
+
+nmap <C-]> :vsc Edit.GoToDefinition<CR>
+
+map ,, :vsc Edit.CommentSelection<cr>
+map ,c :vsc Edit.UnCommentSelection<cr>
+
+noremap to :vsc File.CloseAllButThis<cr>
+
+map <Esc><Esc> :noh

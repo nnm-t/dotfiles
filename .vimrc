@@ -1,40 +1,40 @@
-" �����R�[�hUTF-8
+" 文字コードUTF-8
 set fenc =utf-8
-" �o�b�N�A�b�v�A�X���b�v���Ȃ�
+" バックアップ、スワップ作らない
 set nobackup
 set noswapfile
 set noundofile
-" �ҏW���̃t�@�C���͓ǂݒ���
+" 編集中のファイルは読み直す
 set autoread
-" ���͒��̃R�}���h���X�e�[�^�X�ɕ\��
+" 入力中のコマンドをステータスに表示
 set showcmd
 
-" �s�ԍ��\��
+" 行番号表示
 set number
-" ���݂̍s�������\��
+" 現在の行を強調表示
 set cursorline
-" �s����1������܂ŃJ�[�\���ړ�
+" 行末の1文字先までカーソル移動
 set virtualedit=onemore
-" �Ή�����J�b�R��\��
+" 対応するカッコを表示
 set showmatch
-" �X�e�[�^�X���C������ɕ\��
+" ステータスラインを常に表示
 set laststatus=2
 
-" �s���ȊO�̃^�u�̕�����
+" 行頭以外のタブの文字幅
 set tabstop=2
-" �s���̃^�u�̕�����
+" 行頭のタブの文字幅
 set shiftwidth=2
 
-" �������Ō�������ꍇ�͑啶����������ʂ��Ȃ�
+" 小文字で検索する場合は大文字小文字区別しない
 set ignorecase
-" �啶�����܂܂��ꍇ�͋�ʂ���
+" 大文字が含まれる場合は区別する
 set smartcase
-" �C���N�������^���T�[�`
+" インクリメンタルサーチ
 set incsearch
-" �Ō�܂Ō���������ŏ��ɖ߂�
+" 最後まで検索したら最初に戻る
 set wrapscan
-" �����������n�C���C�g�\��
+" 検索文字をハイライト表示
 set hlsearch
 
-" Esc2�񉟂��Ńn�C���C�g����
+" Esc2回押しでハイライト解除
 nmap <Esc><Esc> :noh<CR>

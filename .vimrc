@@ -37,4 +37,4 @@ set wrapscan
 set hlsearch
 
 " Esc2回押しでハイライト解除
-nmap <Esc><Esc> :noh
+nmap <Esc><Esc> :noh<CR>

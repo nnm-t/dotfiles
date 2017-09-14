@@ -1,0 +1,1 @@
+mklink "%APPDATA%\JetBrains\Shared\vAny\GlobalSettingsStorage.DotSettings" "%HOMEDRIVE%\dotfiles\GlobalSettingsStorage.DotSettings"
